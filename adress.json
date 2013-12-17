@@ -1,0 +1,11 @@
+[{
+	"adress": "ya.ru"
+	, "notify": "sms,jabber"
+},{
+	"adress": "ya.ru"
+	, "port": "96"
+	, "notify": "stream"
+},{
+	"adress": "ya.ru"
+	, "port": "48"
+}]
