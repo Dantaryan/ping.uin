@@ -9,17 +9,22 @@ class pinguin implements IObservable{
 			'tries' => 2,
 			'timeout' => 1,
 			'port' => 80,
-			'notify' => 'stream,sms',
+			'notify' => 'stream,filelog',
 			'firstgoodstop' => 1
 		),'files'=>Array(
 			'adress'=>'./adress.json'
 			,'state'=>'./state.json'
+
+
 		),'sms'=>Array(
 			'user' => 'user'
 			, 'pass' => 'pass'
 			, 'tel' => 'recipient'
 			, 'sign' => 'подпись'
 				
+		),'filelog'=>Array(
+			'path' => 'warnings.log'
+
 		),'jabber'=>Array(
 			'user' => 'sender'
 			, 'pass'=> 'pass'
